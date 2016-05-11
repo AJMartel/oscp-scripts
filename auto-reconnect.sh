@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 while [ "true" ]
 do
     VPNCON=$(nmcli con | grep tap0)
